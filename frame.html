@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title> Registration Form</title>
+    <meta name="viewport" content="width=device-width,
+      initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="form" onsubmit="return fromValidate()">
+        <div id="erorr"></div>
+          <h1>Registration</h1>
+          <div class="input-control">
+              <label for="username">Username</label>
+              <input id="username" name="username" type="text">
+          </div>
+          <div class="input-control">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="text">
+          </div>
+          <div class="input-control">
+              <label for="password">Password</label>
+              <input id="password"name="password" type="password">
+          </div>
+          <div class="input-control">
+              <label for="phoneNumber">phoneNumber</label>
+              <input id="phoneNumber" >
+          </div>
+          <button type="submit">Sign Up</button>
+      </form>
+  </div>
+  </body>
+</html>
